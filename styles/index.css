@@ -64,13 +64,13 @@ body {
     margin-bottom: 54px;
 }
 
-.password-label, .email-label {
+.password-label, .email-label, .name-label {
     font-size: var(--sm);
     font-weight: bold;
     margin-bottom: 4px;
 }
 
-.password-input, .email-input {
+.password-input, .email-input, .name-input {
     font-family: 'Quicksand', sans-serif;
     background-color: var(--text-input-field);
     border: none;
@@ -79,10 +79,6 @@ body {
     font-size: var(--md);
     padding: 6px 6px 6px 16px;
     margin-bottom: 16px;
-}
-
-.email-input {
-    margin-bottom: 24px;
 }
 
 .primary-btn {
