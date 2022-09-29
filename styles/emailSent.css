@@ -107,7 +107,6 @@ body {
 
 @media (max-height: 550px) {
     .logo {
-        margin-top: 44px;
         margin-bottom: 24px;
     }
     .subtitle {

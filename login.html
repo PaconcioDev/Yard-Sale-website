@@ -11,21 +11,19 @@
     <div class="login">
       <div class="form-container">
         <img src="./src/logos/logo_yard_sale.svg" alt="logo" class="logo" />
-        <h1 class="title">Create a new password</h1>
-        <p class="subtitle">Enter a new password for your account</p>
         <form action="/" class="form">
-          <label for="new-password" class="password-label">Password</label>
+          <label for="email" class="email-label">Email address</label>
           <input
-            type="password"
-            id="new-password"
-            placeholder="Enter your new password..."
-            class="password-input"
+            type="email"
+            id="email"
+            placeholder="Enter your email..."
+            class="email-input"
           />
-          <label for="new-password" class="password-label">Password</label>
+          <label for="password" class="password-label">Password</label>
           <input
             type="password"
-            id="new-password"
-            placeholder="Re-enter your new password..."
+            id="password"
+            placeholder="Enter your password..."
             class="password-input"
           />
           <input
@@ -33,7 +31,9 @@
             value="Confirm"
             class="primary-btn confirm-btn"
           />
+          <a href="/">I forgot my password</a>
         </form>
+        <button class="secondary-btn singup-btn">Sing up</button>
       </div>
     </div>
   </body>
