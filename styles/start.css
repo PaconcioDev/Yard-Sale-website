@@ -21,7 +21,7 @@ body {
     grid-template-columns: repeat(auto-fill, 240px);
     gap: 16px;
     place-content: center;
-    margin-top: 12pxgit ;
+    margin-top: 48px;
 }
 
 .product-card {
