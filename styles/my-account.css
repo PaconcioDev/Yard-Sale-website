@@ -58,23 +58,18 @@ body {
     margin-bottom: 4px;
 }
 
-.password-input, .email-input, .name-input {
-    font-family: 'Quicksand', sans-serif;
-    background-color: var(--text-input-field);
-    border: none;
-    border-radius: 8px;
-    height: 32px;
+.value {
+    color: var(--very-light-pink);
     font-size: var(--md);
-    padding: 6px 6px 6px 16px;
-    margin-bottom: 16px;
+    margin: 8px 0 32px 0;
 }
 
-.primary-btn {
+.secondary-btn {
     font-family: 'Quicksand', sans-serif;
-    background-color: var(--light-purple);
-    border: none;
+    background-color: var(--white);
+    border: 1px solid var(--light-purple);
     border-radius: 4px;
-    color: var(--white);
+    color: var(--light-purple);
     width: 100%;
     cursor: pointer;
     font-size: var(--md);
