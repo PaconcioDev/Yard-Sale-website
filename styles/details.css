@@ -47,6 +47,26 @@ body {
     border-radius: 0 0 20px 20px;
 }
 
+.dots {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.dots div:nth-child(1){
+    background-color: var(--light-purple);
+}
+
+.dot {
+    width: 8px;
+    height: 8px;
+    background-color: var(--very-light-pink);
+    margin-right: 4px;
+    border-radius: 50%;
+}
+
+
 .product-info {
     margin: 24px 24px 0 24px;
 }
